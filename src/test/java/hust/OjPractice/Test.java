@@ -1,7 +1,7 @@
 package hust.OjPractice;
 
-import hust.OjPractice.JzOffer.JzOffer;
-
+import hust.OjPractice.JzOffer.JzOffer1;
+import java.util.Collection;;
 public class Test{
 	@org.junit.Test
 	public void testJzOffer() {
@@ -13,7 +13,7 @@ public class Test{
 		};
 		System.out.println(JzOffer.Find(5, array));*/
 		int[] n={1,2,3,4,5,6,7};
-		JzOffer.reOrderArray1(n);
+		JzOffer1.reOrderArray1(n);
 		for (int i = 0; i < n.length; i++) {
 			System.out.print(n[i]);
 		}
